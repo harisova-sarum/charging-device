@@ -1,0 +1,25 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.3 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                 Transient Analysis of proverka_s_istoch                  ***
+***                           30.05.2020 15:22:04                            ***
+********************************************************************************
+Limits
+======
+Maximum Run Time           900u
+Output Start Time (tstart) 0
+Maximum Time Step          1u
+Number of Points           51
+Temperature                Linear 27
+Retrace Runs               1
+Run Options                Normal
+State Variables            Zero
+Operating Point            On
+Operating Point Only       Off
+Auto Scale Ranges          On
+Accumulate Plots           Off
+Fixed Time Step            On
+Periodic Steady State      Off
+Ignore Expression Errors   Off
+

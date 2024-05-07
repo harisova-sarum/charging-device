@@ -1,0 +1,155 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.3 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                       Transient Analysis of pause                        ***
+***                           09.06.2020 12:29:43                            ***
+********************************************************************************
+Limits
+======
+Maximum Run Time           150n
+Output Start Time (tstart) 0
+Maximum Time Step          50n
+Number of Points           51
+Temperature                Linear 27
+Retrace Runs               1
+Run Options                Normal
+State Variables            Zero
+Operating Point            On
+Operating Point Only       Off
+Auto Scale Ranges          On
+Accumulate Plots           Off
+Fixed Time Step            Off
+Periodic Steady State      Off
+Ignore Expression Errors   Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1        -4.727E-028  2             0.000  
+
+
+Operating Point for Devices of Type Diode
+=========================================
+Instance:                  VD1
+Using model:               NEW
+
+Capacitance Terms:
+CAP                   308.464p
+
+Current Terms:
+ID                  9.455E-040
+
+Resistance Terms:
+REQ                   1.585MEG
+
+Voltage Terms:
+VD                  4.727E-028
+
+Power DC Terms:
+PD                  4.469E-067
+PS                      0.000 
+
+DC Pin Currents:
+Id                  9.455E-040
+
+Condition:
+State                      OFF
+
+Device Variables:
+area                    1.000 
+ic                      0.000 
+
+
+
+Operating Point for Devices of Type IGBT
+========================================
+Instance:                   VT1
+Using model:     IXYH20N120C3D1
+
+Power DC Terms:
+PD                   1.872E-033
+
+External voltages and currents:
+
+Capacitance Terms:
+CGS                      1.318n
+CDS                    568.033p
+CDG                      1.375n
+CEB                    946.721p
+CCER                     1.000p
+CMULT                    0.000 
+
+Current Terms:
+IC                   3.902E-033
+IBSS                     0.000 
+ICSS                     0.000 
+IMULT                    0.000 
+IMOS                     0.000 
+IT                       0.000 
+
+Charge Terms:
+QGS                      0.000 
+QDS                    681.639p
+QDG                  3.768E-027
+QEB                      0.000 
+QCER                 2.741E-030
+QMULT                    0.000 
+
+External Voltage Terms:
+VCE                 -4.727E-028
+VGE                      0.000 
+VCG                 -4.727E-028
+
+Internal Voltage Terms:
+VAE                  5.188E-033
+VDS                      0.003f
+VEB                     -0.003f
+
+Device Variables:
+area                     0.000 
+wb                       0.000 
+agd                      0.000 
+kp                       0.000 
+tau                      0.000 
+vgs                      0.000 
+vae                      0.000 
+vds                      0.000 
+veb                      0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                VT1.R1                 R
+V                        0.003f       -4.727E-028
+Power DC Terms:
+PD                   7.513E-051        2.234E-056
+
+DC Pin Currents:
+Ir                   2.741E-033       -4.727E-029
+
+Device Variables:
+tc1                      0.000             0.000 
+tc2                      0.000             0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                   V2
+V                       0.000 
+Power DC Terms:
+PG                      0.000 
+
+DC Pin Currents:
+ISource                 0.000 
+
+

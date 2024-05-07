@@ -1,0 +1,179 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.3 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                      Transient Analysis of stupmost                      ***
+***                           16.06.2020 12:19:08                            ***
+********************************************************************************
+Limits
+======
+Maximum Run Time           100u
+Output Start Time (tstart) 0
+Maximum Time Step          100n
+Number of Points           1e3
+Temperature                Linear 27
+Retrace Runs               1
+Run Options                Normal
+State Variables            Zero
+Operating Point            On
+Operating Point Only       Off
+Auto Scale Ranges          On
+Accumulate Plots           Off
+Fixed Time Step            Off
+Periodic Steady State      Off
+Ignore Expression Errors   Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1           540.000   2           540.000   3           961.254m 
+IN1         961.254m  5           958.563m  6            15.000  
+7           554.041   IN2         539.041   9             0.000  
+
+
+Operating Point for Devices of Type Diode
+=========================================
+Instance:                  VD1               VD2               VD3               VD4
+Using model:               NEW               NEW               NEW               NEW
+
+Capacitance Terms:
+CAP                   111.194f          257.254p          257.254p          111.193f
+
+Current Terms:
+ID                     -1.110u          -81.035n          -81.035n           -1.110u
+
+Resistance Terms:
+REQ                 269.383MEG            2.181G            2.181G        269.382MEG
+
+Voltage Terms:
+VD                   -539.039          -958.563m         -958.563m         -539.041 
+
+Power DC Terms:
+PD                    598.531u           77.677n           77.677n          598.540u
+PS                      0.000             0.000             0.000             0.000 
+
+DC Pin Currents:
+Id                     -1.110u          -81.035n          -81.035n           -1.110u
+
+Condition:
+State                      OFF               OFF               OFF               OFF
+
+Device Variables:
+area                    1.000             1.000             1.000             1.000 
+ic                      0.000             0.000             0.000             0.000 
+
+
+
+Operating Point for Devices of Type IGBT
+========================================
+Instance:                   VT1               VT2               VT3               VT4
+Using model:     IXYH20N120C3D1    IXYH20N120C3D1    IXYH20N120C3D1    IXYH20N120C3D1
+
+Power DC Terms:
+PD                       9.922m          515.803m          515.803m            9.923m
+
+External voltages and currents:
+
+Capacitance Terms:
+CGS                      1.318n            1.318n            1.318n            1.318n
+CDS                     18.941p          560.144p          560.144p           18.941p
+CDG                     12.577p            1.375n            1.375n           12.577p
+CEB                    949.113p            2.606u            2.606u          949.113p
+CCER                     1.000p          467.740p          467.740p            1.000p
+CMULT                   90.585f            0.000             0.000            90.587f
+
+Current Terms:
+IC                      18.408u          538.100m          538.100m           18.408u
+IBSS                     0.000             0.000             0.000             0.000 
+ICSS                     0.000             0.000             0.000             0.000 
+IMULT                    0.000             0.000             0.000             0.000 
+IMOS                     0.000             0.000             0.000             0.000 
+IT                       0.000             0.000             0.000             0.000 
+
+Charge Terms:
+QGS                      0.000            19.767n           19.767n            0.000 
+QDS                     20.442n          691.239p          691.239p           20.442n
+QDG                     19.844n          -20.599n          -20.599n           19.844n
+QEB                      2.863p           99.701n           99.701n            2.863p
+QCER                   539.036p            7.960p            7.960p          539.038p
+QMULT                   48.828p            0.000             0.000            48.830p
+
+External Voltage Terms:
+VCE                    539.039           958.563m          958.563m          539.041 
+VGE                      0.000            15.000            15.000             0.000 
+VCG                    539.039           -14.041           -14.041           539.041 
+
+Internal Voltage Terms:
+VAE                     12.324u          363.513m          363.513m           12.324u
+VDS                    539.036            17.018m           17.018m          539.038 
+VEB                      3.020m          578.032m          578.032m            3.020m
+
+Device Variables:
+area                     0.000             0.000             0.000             0.000 
+wb                       0.000             0.000             0.000             0.000 
+agd                      0.000             0.000             0.000             0.000 
+kp                       0.000             0.000             0.000             0.000 
+tau                      0.000             0.000             0.000             0.000 
+vgs                      0.000             0.000             0.000             0.000 
+vae                      0.000             0.000             0.000             0.000 
+vds                      0.000             0.000             0.000             0.000 
+veb                      0.000             0.000             0.000             0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                    R1            VT1.R1            VT2.R1            VT3.R1
+V                       97.591n          539.036            17.018m           17.018m
+Power DC Terms:
+PD                       1.905p          290.560p        2.896E-019        2.896E-019
+
+DC Pin Currents:
+Ir                      19.518u          539.036f            0.017f            0.017f
+
+Device Variables:
+tc1                      0.000             0.000             0.000             0.000 
+tc2                      0.000             0.000             0.000             0.000 
+
+
+Instance:                VT4.R1                R2                 R
+V                      539.038            -2.690m          538.080 
+Power DC Terms:
+PD                     290.562p            1.448m          289.530 
+
+DC Pin Currents:
+Ir                     539.038f         -538.100m          538.080m
+
+Device Variables:
+tc1                      0.000             0.000             0.000 
+tc2                      0.000             0.000             0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                   V1                V2                V5                V3
+V                     540.000             0.000             0.000            15.000 
+Power DC Terms:
+PG                    290.584             0.000             0.000            36.664p
+
+DC Pin Currents:
+ISource              -538.119m          -13.101f            0.000            -2.444p
+
+
+Instance:                   V4
+V                      15.000 
+Power DC Terms:
+PG                      0.000 
+
+DC Pin Currents:
+ISource                 0.000 
+
+
